@@ -5,9 +5,9 @@ import { useTheme } from "../ThemeProvider";
 import { FiSun, FiMoon, FiMenu, FiX } from "react-icons/fi";
 
 const NAV_LINKS = [
+  { label: "المدونة", href: "https://blog-platform-nine-pi.vercel.app" },
   { label: "خدماتنا", href: "#services" },
   { label: "أعمالنا", href: "#portfolio" },
-  { label: "المدونة", href: "/blog" },
   { label: "الباقات", href: "#pricing" },
   { label: "الأسئلة الشائعة", href: "#faq" },
 ];
